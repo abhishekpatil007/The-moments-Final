@@ -9,12 +9,17 @@ const FrameComponent5 = ({ className = "" }) => {
     >
       <div className="flex-1 rounded-xl flex flex-row items-start justify-start p-6 box-border max-w-full mq750:pt-5 mq750:pb-5 mq750:box-border">
         <div className="flex-1 rounded-2xl flex flex-col items-start justify-start pt-[29px] px-[73px] pb-[72px] box-border relative gap-[123px] max-w-full lg:gap-[61px] lg:pl-9 lg:pr-9 lg:box-border mq450:gap-[15px] mq750:gap-[31px] mq750:pt-5 mq750:pb-[47px] mq750:box-border">
+          
+          {/* Adjusted the image position to move it down */}
           <img
-            className="w-full h-[930px] absolute !m-[0] right-[0px] bottom-[-258px] left-[0px] max-w-full overflow-hidden shrink-0 object-cover"
+            className="w-full h-[830px] absolute bottom-[20px] left-0 right-0 max-w-full object-cover"
             alt=""
             src="/image-25@2x.png"
           />
-          <div className="w-[1416px] h-[930px] absolute !m-[0] top-[calc(50%_-_465px)] left-[calc(50%_-_708px)] bg-gray-700 z-[1]" />
+
+          {/* Dark overlay with extended sides and corner gaps */}
+          <div className="absolute inset-x-0 bottom-0 h-[830px] bg-gray-700 z-[1]" />
+
           <FrameComponent
             frameButtonFlex="0.6667"
             propColor="rgba(255, 255, 255, 0.7)"
@@ -26,6 +31,7 @@ const FrameComponent5 = ({ className = "" }) => {
             propColor2="#fff"
             propFontWeight2="bold"
           />
+
           <div className="w-[720px] flex flex-row items-start justify-start py-0 px-1 box-border max-w-full">
             <div className="flex-1 flex flex-col items-start justify-start gap-16 max-w-full mq450:gap-4 mq750:gap-8">
               <div className="self-stretch flex flex-col items-start justify-start gap-4 max-w-full">

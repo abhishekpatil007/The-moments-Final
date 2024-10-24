@@ -49,7 +49,7 @@ const CallToAction = ({ className = "" }) => {
           <img
             className="absolute h-full top-[0px] bottom-[0px] left-[0px] max-h-full w-[1166px] object-contain"
             alt=""
-            src="/frame-3043980@2x.png"
+            src="/Group-2.png"
           />
           <div className="absolute top-[395px] left-[50px] [background:linear-gradient(180deg,_#1b1b1b,_rgba(27,_27,_27,_0))] w-[842px] h-[122px] z-[1]" />
           <div className="absolute top-[1067px] left-[891px] [background:linear-gradient(180deg,_#1b1b1b,_rgba(27,_27,_27,_0))] w-[786px] h-[122px] [transform:_rotate(-180deg)] [transform-origin:0_0] z-[1]" />

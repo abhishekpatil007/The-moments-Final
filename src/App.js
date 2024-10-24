@@ -14,28 +14,34 @@ function App() {
   const location = useLocation();
   const pathname = location.pathname;
 
+  // Scroll to top when navigation action is not "POP" (user clicks link or uses history)
   useEffect(() => {
     if (action !== "POP") {
       window.scrollTo(0, 0);
     }
   }, [action, pathname]);
 
+  // Update title and meta description based on current route
   useEffect(() => {
     let title = "";
     let metaDescription = "";
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
+        title = "Homepage - The Moments";
+        metaDescription = "Welcome to The Moments Homepage.";
         break;
-      case "/":
-        title = "";
-        metaDescription = "";
+      case "/gallery":
+        title = "Gallery - The Moments";
+        metaDescription = "Browse through our gallery of beautiful moments.";
         break;
       case "/about-us":
-        title = "";
-        metaDescription = "";
+        title = "About Us - The Moments";
+        metaDescription = "Learn more about The Moments and our story.";
+        break;
+      default:
+        title = "The Moments";
+        metaDescription = "Welcome to The Moments website.";
         break;
     }
 
@@ -56,9 +62,10 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Homepage />} />
-      <Route path="/" element={<Gallery />} />
+      <Route path="/gallery" element={<Gallery />} />
       <Route path="/about-us" element={<AboutUs />} />
     </Routes>
   );
 }
+
 export default App;

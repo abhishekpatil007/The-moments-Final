@@ -8,11 +8,11 @@ const Container = ({ className = "" }) => {
     >
       <div className="flex-1 rounded-2xl flex flex-col items-start justify-start pt-[29px] px-[73px] pb-24 box-border relative gap-[205px] max-w-full lg:gap-[102px] lg:pl-9 lg:pr-9 lg:box-border mq450:gap-[26px] mq750:gap-[51px] mq750:pt-5 mq750:pb-[62px] mq750:box-border">
         <img
-          className="w-full h-[930px] absolute !m-[0] right-[0px] bottom-[-258px] left-[0px] max-w-full overflow-hidden shrink-0 object-cover"
+          className="w-full h-full absolute !m-[0] right-[0px] bottom-0 left-[0px] max-w-full overflow-hidden shrink-0 object-cover"
           alt=""
           src="/image-25@2x.png"
         />
-        <div className="w-[1416px] h-[930px] absolute !m-[0] top-[calc(50%_-_465px)] left-[calc(50%_-_708px)] bg-gray-700 z-[1]" />
+        <div className="w-full h-full absolute !m-[0] top-0 left-0 bg-gray-700 z-[1]" />
         <FrameComponent
           frameButtonFlex="0.7027"
           propColor="rgba(255, 255, 255, 0.7)"

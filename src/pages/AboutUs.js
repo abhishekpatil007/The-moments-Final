@@ -18,11 +18,6 @@ const AboutUs = () => {
           <FrameComponent6 />
         </div>
       </section>
-      <img
-        className="w-[654.1px] flex-1 !m-[0] absolute top-[1326.4px] left-[-234.4px] rounded-2xl max-h-full overflow-hidden object-contain z-[3]"
-        alt=""
-        src="/frame-1000001810@2x.png"
-      />
       <Footer />
     </div>
   );

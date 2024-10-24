@@ -6,26 +6,16 @@ const FrameComponent9 = ({ className = "" }) => {
     <section
       className={`self-stretch h-[1506.6px] relative max-w-full text-left text-lg text-springgreen font-lexend lg:h-auto lg:min-h-[1506.6] ${className}`}
     >
-      <div className="absolute top-[0px] left-[339px] rounded-2xl w-[459px] h-[426px] overflow-hidden flex flex-col items-start justify-start max-w-full z-[2]">
+      <div className="absolute top-[-200px] left-0 rounded-2xl w-full h-auto overflow-hidden flex flex-col items-center justify-center max-w-full z-[2]">
         <img
-          className="self-stretch h-[865px] relative max-w-full overflow-hidden shrink-0 object-cover"
+          className="w-full h-auto max-h-[100vh] object-cover"  // Adjusted for responsiveness
           alt=""
-          src="/image-261@2x.png"
+          src="/Group-1.png"  // Single image source
         />
       </div>
       <div className="absolute top-[358.6px] left-[0px] w-full flex flex-row items-start justify-start max-w-full">
         <div className="h-[705.7px] w-[857.7px] absolute !m-[0] top-[-522.5px] right-[0px]">
-          <img
-            className="absolute h-[calc(100%_-_3.2px)] top-[0px] bottom-[3.2px] left-[429.1px] rounded-2xl max-h-full w-[674.1px] overflow-hidden object-contain"
-            loading="lazy"
-            alt=""
-            src="/frame-3043974@2x.png"
-          />
-          <img
-            className="absolute top-[78.5px] left-[0px] rounded-2xl w-[652.8px] h-[627.2px] overflow-hidden object-contain z-[1]"
-            alt=""
-            src="/frame-1000001812@2x.png"
-          />
+          {/* Removed additional images */}
         </div>
         <div className="flex-1 bg-gray-200 overflow-hidden flex flex-col items-start justify-start py-[120px] px-[98px] box-border gap-[62px] max-w-full z-[4] mq450:gap-[15px] mq450:pl-5 mq450:pr-5 mq450:box-border mq750:gap-[31px] mq750:pl-[49px] mq750:pr-[49px] mq750:box-border">
           <div className="self-stretch flex flex-col items-end justify-start gap-12 max-w-full mq750:gap-6">
