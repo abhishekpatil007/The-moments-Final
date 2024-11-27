@@ -99,35 +99,35 @@ const GalleryNavigation = ({ className = "" }) => {
                 className="w-[876px] relative rounded-2xl max-h-full overflow-hidden shrink-0 object-cover max-w-full"
                 loading="lazy"
                 alt=""
-                src="/frame-3044012@2x.png"
+                src="/image New/w13.jpg"
               />
               <img
                 className="w-[426px] relative rounded-2xl max-h-full overflow-hidden shrink-0 object-cover max-w-full"
                 loading="lazy"
                 alt=""
-                src="/frame-3044013@2x.png"
+                src="/image New/w27.jpg"
               />
               <img
                 className="w-[426px] relative rounded-2xl max-h-full overflow-hidden shrink-0 object-cover max-w-full"
                 loading="lazy"
                 alt=""
-                src="/frame-3044014@2x.png"
+                src="/image New/w24.jpg"
               />
               <img
                 className="w-[876px] relative rounded-2xl max-h-full overflow-hidden shrink-0 object-cover max-w-full"
                 loading="lazy"
                 alt=""
-                src="/frame-3044015@2x.png"
+                src="/image New/w17.jpg"
               />
               <img
                 className="w-[426px] relative rounded-2xl max-h-full overflow-hidden shrink-0 object-cover max-w-full"
                 alt=""
-                src="/frame-3044013-1@2x.png"
+                src="/image New/w29.jpg"
               />
               <img
                 className="w-[426px] relative rounded-2xl max-h-full overflow-hidden shrink-0 object-cover max-w-full"
                 alt=""
-                src="/frame-3044014-1@2x.png"
+                src="/image New/w31.jpg"
               />
             </div>
           </div>

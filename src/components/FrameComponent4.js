@@ -62,7 +62,7 @@ const FrameComponent4 = ({ className = "" }) => {
             className="self-stretch h-[865px] relative max-w-full overflow-hidden shrink-0 object-cover"
             loading="lazy"
             alt=""
-            src="/image-26@2x.png"
+            src="/image New/w33.jpg"
           />
         </div>
       </div>
