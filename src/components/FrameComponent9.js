@@ -10,7 +10,7 @@ const FrameComponent9 = ({ className = "" }) => {
         <img
           className="w-full h-auto max-h-[100vh] object-cover"  // Adjusted for responsiveness
           alt=""
-          src="/Group-1.png"  // Single image source
+          src="/framelg1.svg"
         />
       </div>
       <div className="absolute top-[358.6px] left-[0px] w-full flex flex-row items-start justify-start max-w-full">
@@ -76,7 +76,7 @@ const FrameComponent9 = ({ className = "" }) => {
           <div className="self-stretch flex flex-row items-start justify-start py-0 pl-2.5 pr-0.5 box-border max-w-full text-13xl text-white font-bebas-neue">
             <div className="w-[1332px] overflow-x-auto shrink-0 flex flex-row items-start justify-start gap-6 max-w-[109%]">
               <div className="rounded-2xl bg-gray-300 flex flex-row items-start justify-start p-3 box-border max-w-full">
-                <div className="rounded-xl overflow-hidden flex flex-col items-start justify-start py-10 pl-6 pr-5 box-border gap-[270px] bg-[url('/public/frame-30440382@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq750:gap-[135px]">
+                <div className="rounded-xl overflow-hidden flex flex-col items-start justify-start py-10 pl-6 pr-5 box-border gap-[270px] bg-[url('/public/w29.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full mq750:gap-[135px]">
                   <h2 className="m-0 relative text-inherit tracking-[0.01em] leading-[140%] font-normal font-[inherit] mq450:text-lgi mq450:leading-[27px] mq1050:text-7xl mq1050:leading-[36px]">
                     Authenticity
                   </h2>
@@ -89,7 +89,7 @@ const FrameComponent9 = ({ className = "" }) => {
                 </div>
               </div>
               <div className="rounded-2xl bg-gray-300 flex flex-row items-start justify-start p-3 box-border max-w-full">
-                <div className="rounded-xl overflow-hidden flex flex-col items-start justify-start py-10 pl-6 pr-5 box-border gap-[270px] bg-[url('/public/frame-30440383@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq750:gap-[135px]">
+                <div className="rounded-xl overflow-hidden flex flex-col items-start justify-start py-10 pl-6 pr-5 box-border gap-[270px] bg-[url('/public/w24.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full mq750:gap-[135px]">
                   <h2 className="m-0 relative text-inherit tracking-[0.01em] leading-[140%] font-normal font-[inherit] mq450:text-lgi mq450:leading-[27px] mq1050:text-7xl mq1050:leading-[36px]">
                     Creativity
                   </h2>
@@ -102,7 +102,7 @@ const FrameComponent9 = ({ className = "" }) => {
                 </div>
               </div>
               <div className="rounded-2xl bg-gray-300 flex flex-row items-start justify-start p-3 box-border max-w-full">
-                <div className="rounded-xl overflow-hidden flex flex-col items-start justify-start py-10 pl-6 pr-5 box-border gap-[270px] bg-[url('/public/frame-30440384@3x.png')] bg-cover bg-no-repeat bg-[top] max-w-full mq750:gap-[135px]">
+                <div className="rounded-xl overflow-hidden flex flex-col items-start justify-start py-10 pl-6 pr-5 box-border gap-[270px] bg-[url('/public/w31.jpg')] bg-cover bg-no-repeat bg-[top] max-w-full mq750:gap-[135px]">
                   <h2 className="m-0 relative text-inherit tracking-[0.01em] leading-[140%] font-normal font-[inherit] mq450:text-lgi mq450:leading-[27px] mq1050:text-7xl mq1050:leading-[36px]">
                     Connection
                   </h2>
