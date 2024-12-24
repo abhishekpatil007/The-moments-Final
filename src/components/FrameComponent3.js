@@ -9,7 +9,7 @@ const FrameComponent3 = ({ className = "" }) => {
       <div className="w-[1539px] flex flex-row items-start justify-start max-w-[125%] shrink-0">
         <div className="w-[1332px] overflow-x-auto shrink-0 flex flex-row items-start justify-start gap-6 max-w-full">
           <GalleryRows
-            propBackgroundImage="url('/image New/s30.jpg')"
+            propBackgroundImage="url('/w93.jpeg')"
             heading4TimelessElegance={`Emma & Patrick`}
             weddingPhotography="Wedding Photography"
             galleryImageButtons="2022"
@@ -21,7 +21,7 @@ const FrameComponent3 = ({ className = "" }) => {
             galleryImageButtons="2024"
           />
           <GalleryRows
-            propBackgroundImage="url('/image New/w32.jpg')"
+            propBackgroundImage="url('/w95.jpeg')"
             heading4TimelessElegance="Sana B"
             weddingPhotography="Birthday Photography"
             galleryImageButtons="2022"

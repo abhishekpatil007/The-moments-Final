@@ -8,6 +8,8 @@ import {
 import Homepage from "./pages/Homepage";
 import Gallery from "./pages/Gallery";
 import AboutUs from "./pages/AboutUs";
+import Services from "./pages/Services";
+import ContactUs from "./pages/ContactUs";
 
 function App() {
   const action = useNavigationType();
@@ -39,6 +41,14 @@ function App() {
         title = "About Us - The Moments";
         metaDescription = "Learn more about The Moments and our story.";
         break;
+      case "/services":
+        title = "Services - The Moments";
+        metaDescription = "Explore the services we offer.";
+        break;
+      case "/contact-us":
+        title = "Contact Us - The Moments";
+        metaDescription = "Get in touch with us.";
+        break;
       default:
         title = "The Moments";
         metaDescription = "Welcome to The Moments website.";
@@ -64,6 +74,8 @@ function App() {
       <Route path="/" element={<Homepage />} />
       <Route path="/gallery" element={<Gallery />} />
       <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/contact-us" element={<ContactUs />} />
     </Routes>
   );
 }

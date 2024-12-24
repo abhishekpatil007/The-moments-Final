@@ -99,6 +99,24 @@ const FrameComponent = ({
                 About us
               </div>
             </Link>
+            <Link
+              to="/services"
+              className={`flex-1 flex flex-row items-center justify-center py-1 px-[7px]`}
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <div className="flex-1 relative tracking-[-0.75px] leading-[145%] inline-block min-w-[74px]">
+                Services
+              </div>
+            </Link>
+            <Link
+              to="/contact-us"
+              className={`flex-1 flex flex-row items-center justify-center py-1 px-[7px]`}
+              style={{ textDecoration: 'none', color: 'inherit' }}
+            >
+              <div className="flex-1 relative tracking-[-0.75px] leading-[145%] inline-block min-w-[74px]">
+                Contact Us
+              </div>
+            </Link>
           </nav>
 
           {/* Book a Call Button in Desktop View */}
